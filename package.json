@@ -1,0 +1,25 @@
+{
+  "name": "http-logger",
+  "version": "1.0.0",
+  "description": "HTTP request logger middleware for node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "request",
+    "HTTP",
+    "log"
+  ],
+  "author": "Birol AYDIN",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
