@@ -12,11 +12,11 @@ const logger = (req, res, next) => {
       `[Original URL:` +
       ` ${req.originalUrl} `.black.bgWhite +
       `]` +
-      ` [Response Address:` +
+      ` [Request Address:` +
       ` ${req.protocol}://${req.get("host")}${req.originalUrl} `.bold.bgGreen
         .white +
       `] ` +
-      ` [Response Time: ${moment().format("MMMM Do YYYY, h:mm:ss a")}] `.bgWhite
+      ` [Request Time: ${moment().format("MMMM Do YYYY, h:mm:ss a")}] `.bgWhite
         .black +
       `\n`
   );
